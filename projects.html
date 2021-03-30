@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo Rink</title>
+    <link rel="icon" href="images/favicon_io/favicon-16x16.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!--header-->
+        <header>
+            <a href="index.html"><img src="images/logoWhite.png" alt="Halo Rink Logo"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li class="skatingMenu"><a href="skating.html">Skating</a>
+                    <ul id="subMenu">
+                        <li><a href="skating.html#publicJump">Public Session</a></li>
+                        <li><a href="skating.html#figureJump">Figure Skating</a></li>
+                    </ul>
+                </li>
+                <li><a href="hockey.html">Hockey</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+            </ul>
+        </nav>
+
+        <!--main-->
+        <main>
+            <div id="projectsPage">
+                <h1>JavaScript Used</h1>
+                <dl>
+                    <dt>Functions</dt>
+                    <dd>Functions were utilized a few times in this project. I used named functions that were called to add event listeners to buttons and hover events for the menu. In addition to this, I also used anonymous functions as well to add event listeners to HTML elements on pages.You can view the page at the following link: <a href="schedule.html">Function Example</a></dd>
+                    <dt>If, Else Statements</dt>
+                    <dd>I used if statements in different ways. One helpful way I used if statements was to check if an element exists on the page. This was needed for some pages where I was trying to call an element that didn't exist when trying to add an event listener. I also used if/else statements for my schedule page to see which parameter was passed into a function so it knows which table needs to be created when a user clicks on a date on the calendar. You can view the page at the following link: <a href="skating.html#seeMore">If, Else Statement Example</a> </dd>
+                    <dt>For Loops</dt>
+                    <dd>I used for loops on my Schedule page. Since the calendar needed click events, I thought it'd be a good use case for a for loop. So I used a for loop to add click event listeners to each of the list items and specified them by targeting them with their class names. You can view the page at the following link: <a href="schedule.html">For Loop Example</a></dd>
+                    <dt>Events</dt>
+                    <dd>I used quite a bit of event listeners on this site. They are very useful in adding interactivity to a page. I used click events to show schdules on the schedule page. I used hover events on the navigation as well. You can view the page at the following link: <a href="skating.html">Events Example</a></dd>
+                    <dt>jQuery</dt>
+                    <dd>I used jQuery for the slideshow used on the index page. In the previous project, I thought it was really cool how a simple slideshow was made using such little code. It really showed me the benefits of using jQuery and how less code can be used to do more. You can view the page at the following link: <a href="index.html#slideshow">jQuery Example</a></dd>
+                </dl>
+            </div>
+            
+               
+                    
+        </main>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

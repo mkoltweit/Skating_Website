@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo Rink</title>
+    <link rel="icon" href="images/favicon_io/favicon-16x16.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!--header-->
+        <header>
+            <a href="index.html"><img src="images/logoWhite.png" alt="Halo Rink Logo"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li class="skatingMenu"><a href="skating.html">Skating</a>
+                    <ul id="subMenu">
+                        <li><a href="skating.html#publicJump">Public Session</a></li>
+                        <li><a href="skating.html#figureJump">Figure Skating</a></li>
+                    </ul>
+                </li>
+                <li><a href="hockey.html">Hockey</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+            </ul>
+        </nav>
+
+        <!--main-->
+        <main>
+            <div id="contactPage">
+                <h1>Contact Us</h1>
+                <div id="contactForm">
+                    <form>
+                        <input type="text" id="fullName" placeholder="Full Name"><br />
+                        <input type="email" id="email" placeholder="Email Address"><br />
+                        <input type="tel" id="phone" placeholder="Phone Number"><br />
+                        <textarea cols="50" rows="5" id="messageArea" placeholder="Your message..."></textarea><br />
+                        <button type="submit" id="sendMessage">Send Message</button>
+                        <p id ="isValidMsg"></p>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

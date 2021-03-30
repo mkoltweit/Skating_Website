@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo Rink</title>
+    <link rel="icon" href="images/favicon_io/favicon-16x16.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!--header-->
+        <header>
+            <a href="index.html"><img src="images/logoWhite.png" alt="Halo Rink Logo"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li class="skatingMenu"><a href="skating.html">Skating</a>
+                    <ul id="subMenu">
+                        <li><a href="skating.html#publicJump">Public Session</a></li>
+                        <li><a href="skating.html#figureJump">Figure Skating</a></li>
+                    </ul>
+                </li>
+                <li><a href="hockey.html">Hockey</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+            </ul>
+        </nav>
+
+        <!--main-->
+        <main>
+            <div id="schedulePage">
+                <div class="month">      
+                    <ul>                     
+                      <li>
+                        January<br>
+                        <span style="font-size:18px">2021</span>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <ul class="weekdays">
+                    <li>Su</li>
+                    <li>Mo</li>
+                    <li>Tu</li>
+                    <li>We</li>
+                    <li>Th</li>
+                    <li>Fr</li>
+                    <li>Sa</li>                   
+                  </ul>
+                  
+                  <ul class="days"> 
+                    <li></li> 
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li class="MWF">1</li>
+                    <li class="Sat">2</li>
+                    <li>3</li>
+                    <li class="MWF">4</li>
+                    <li class="TTH">5</li>
+                    <li class="MWF">6</li>
+                    <li class="TTH">7</li>
+                    <li class="MWF">8</li>
+                    <li class="Sat">9</li>
+                    <li>10</li>
+                    <li class="MWF">11</li>
+                    <li class="TTH">12</li>
+                    <li class="MWF">13</li>
+                    <li class="TTH">14</li>
+                    <li class="MWF">15</li>
+                    <li class="Sat">16</li>
+                    <li>17</li>
+                    <li class="MWF">18</li>
+                    <li class="TTH">19</li>
+                    <li class="MWF">20</li>
+                    <li class="TTH">21</li>
+                    <li class="MWF">22</li>
+                    <li class="Sat">23</li>
+                    <li>24</li>
+                    <li class="MWF">25</li>
+                    <li class="TTH">26</li>
+                    <li class="MWF">27</li>
+                    <li class="TTH">28</li>
+                    <li class="MWF">29</li>
+                    <li class="Sat">30</li>
+                    <li>31</li>
+                    <li></li> 
+                    <li></li>
+                    <li></li>
+                    <li></li> 
+                    <li></li>
+                    <li></li>
+                  </ul>      
+            </div>
+            <div class="description" id="scheduleKey">
+                <img src="images/hockey.png" alt="Hockey stick" height="40" width="40">
+                <span>Stick time</span>
+                <img src="images/skate.png" alt="Hockey stick" height="40" width="40">
+                <span>Freestyle</span>
+                <img src="images/public.png" alt="Hockey stick" height="40" width="40">
+                <span>Public Session</span>
+            </div>
+            <div id="availableTimes"></div>
+        </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
